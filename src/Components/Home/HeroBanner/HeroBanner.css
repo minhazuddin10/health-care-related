@@ -1,0 +1,77 @@
+.heroBanner{
+    padding-top: 180px;
+    position: relative;
+}
+.carousel {
+    position: inherit !important;
+}
+.banner_content h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--heading-color);
+    margin-bottom: 25px;
+}
+.banner_content p {
+    max-width: 450px;
+    color: var(--paragraph-color);
+    font-weight: 500;
+    line-height: 28px;
+}
+
+@keyframes bounce_up {
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 3rem !important;
+    height: 3rem !important;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    /* background: gray; */
+    border-radius: 50%;
+}
+.carousel-control-next-icon {
+    background-image: url('../../../img/right-arrow.png') !important;
+    /* width: 15px; */
+}
+.carousel-control-prev-icon {
+    background-image: url("../../../img/left-arrow.png") !important;
+}
+
+/* -------------media query-------------- */
+/* ---------tablet device ------------- */
+@media (min-width:577px) and (max-width:768px){
+    .banner_content h2{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .banner_img{
+        padding-top: 60px;
+    }
+}
+/* ----mobile device------- */
+@media (min-width:375px) and (max-width:576px){
+    .banner_content h2{
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .banner_img{
+        padding-top: 60px;
+    }
+}
+
+/* small mobile device--- */
+@media (max-width:375px){
+    .banner_content h2{
+        font-size: 28px;
+    }
+    .banner_img{
+        padding-top: 60px;
+    }
+}
