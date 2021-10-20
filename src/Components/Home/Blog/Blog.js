@@ -1,8 +1,8 @@
 import React from 'react';
 import './Blog.css';
-import blogImg_1 from '../../../img/blog-1.jpg';
-import blogImg_2 from '../../../img/blog-2.png';
-import blogImg_3 from '../../../img/blog-3.jpg';
+import blogImg_1 from '../../../img/blog_1.jfif';
+import blogImg_2 from '../../../img/blog_2.jfif';
+import blogImg_3 from '../../../img/blog_3.jfif';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import { Card } from 'react-bootstrap';
@@ -54,8 +54,6 @@ const Blog = () => {
                                             </div>
                                             <Card.Body className="blog_text">
                                                 <div className="mb-2 date">
-                                                    <i>{blog.dateIcon}</i>
-                                                    <span> {blog.date}</span>
                                                 </div>
                                                 <h3>{blog.title}</h3>
                                                 <p>{blog.desc}</p>

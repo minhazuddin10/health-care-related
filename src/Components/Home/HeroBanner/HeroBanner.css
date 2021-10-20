@@ -1,3 +1,6 @@
+.banner_img img{
+    width: 100%
+}
 .heroBanner{
     padding-top: 180px;
     position: relative;
@@ -6,7 +9,7 @@
     position: inherit !important;
 }
 .banner_content h2{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     color: var(--heading-color);
     margin-bottom: 25px;

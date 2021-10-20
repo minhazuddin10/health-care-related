@@ -16,7 +16,6 @@ const IntroducingTeam = () => {
                         </div>
                         <div className="col-lg-7">
                             <div className="introducing_team_info" data-aos="fade-up">
-                                <h2>Welcome to Medico Health Center</h2>
                                 <span>SHORT HISTORY</span>
                                 <p>Our team of highly trained professionals uses the latest healing technologies to restore you to pain-free health quickly and easily. We thoroughly evaluate & treat all of the contributing root factors related to your issue.</p>
                                 <img src={signature} alt="" />

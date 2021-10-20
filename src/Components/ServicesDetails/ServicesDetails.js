@@ -1,23 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-// import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import useServices from '../../Hooks/useServices';
 import './ServicesDetails.css';
 
 const ServicesDetails = () => {
     const { name } = useParams();
-    // services items
     const [serviceItem] = useServices();
-    // find specific service item state
     const [selectedItem, setSelectedItem] = useState({})
-    // console.log(name);
     useEffect(() => {
         const matched = serviceItem.find(item => item.name === name);
         setSelectedItem(matched)
     }, [serviceItem, name]);
 
-    // console.log(selectedItem);
 
     return (
         <section id="services_details">

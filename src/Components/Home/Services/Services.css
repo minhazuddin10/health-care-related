@@ -19,15 +19,7 @@
     line-height: 65px;
     position: relative;
 }
-.sec_title h2::before {
-    content: '';
-    position: absolute;
-    width: 200px;
-    height: 2px;
-    left: 30%;
-    bottom: -30px;
-    background: var(--main-color);
-}
+ 
 .service_text h3{
     font-size: 28px;
     color: var(--heading-color);
@@ -37,7 +29,12 @@
     color: var(--paragraph-color);
     line-height: 26px;
 }
-
+.services_card_item{
+    height: 400px;
+}
+.services_card_item img{
+    height: 300px;
+}
 /* ----------------------media query---------------- */
 
 /* ----------tablet size----------------- */

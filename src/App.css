@@ -3,7 +3,7 @@
 
 :root{
   --main-color:#3f4241;
-  --heading-color:#214167;
+  --heading-color:#0762d1;
   --paragraph-color:#7a7a7a;
   --primary-color:#000000;
 }
@@ -32,7 +32,7 @@ a{
   padding: 10px 25px;
   border-radius: 8px;
   border: none;
-  background: #61ce70;
+  background: #222723;
   transition: 0.3s ease;
   color: white;
 }
